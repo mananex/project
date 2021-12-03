@@ -1,0 +1,30 @@
+.btn-main {
+    margin: 0 1px 0 2px;
+    background-color:#ff4747;
+    color: #ffffff;
+    border-radius: 2px;
+    font-weight: 700;
+    padding: 6px 0;
+    width: 110px;
+    height: 100%;
+    text-align: center;
+    border: none;
+    &_light {
+        color: #ff4747;
+        background-color: #fff1f1;
+    }
+}
+
+.btn-main_search {
+    display: flex;
+    border: 1px solid#ff4747;
+    border-left: none;
+    max-width: 40px;
+    height: 38px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 5px 5px 0;
+    img {
+        width: 19px;
+    }
+}
