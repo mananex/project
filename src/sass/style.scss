@@ -4,3 +4,11 @@
 @import "blocks/search.scss";
 @import "blocks/aside-left.scss";
 @import "blocks/suggestions.scss";
+@import "blocks/welcome-aside.scss";
+
+.firstscreen {
+    position: relative;
+    width: 1140px;
+    left: 50%;
+    transform: translateX(-50%);
+}

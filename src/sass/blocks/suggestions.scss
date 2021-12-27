@@ -1,8 +1,9 @@
 .suggestions {
     width: 1140px;
     position: relative;
-    left: 365px;
     top: 15px;
+    left: 50%;
+    transform: translateX(-33%);
     .slick-track {
         display: inline-block;
         border-radius: 10px;
@@ -50,7 +51,7 @@
         }
     }
     &__slicker {
-        width: 748px;
+        width: 746px;
         border-radius: 10px;
         overflow: hidden;
         height: 298px;
