@@ -25,4 +25,24 @@ $(document).ready(function(){
         prevArrow: false,
         nextArrow: false
     });
+    $('.global__sale__main__products__slicker').slick({
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+        autoplay: true,
+        autoplaySpeed: 5000,
+        prevArrow: false,
+        nextArrow: false
+    });
+    $('.global__sale__main__products__text__slicker').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        vertical: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        prevArrow: false,
+        nextArrow: false
+    });
 });

@@ -1,0 +1,140 @@
+.global__sale {
+    margin-top: 26px;
+    position: relative;
+    overflow: hidden;
+    height: 471px;
+    &__wrapper {
+        position: relative;
+    }
+    &__main {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 1200px;
+        height: 260px;
+        background: url('https://ae01.alicdn.com/kf/H82d7e7edc12547f3a660da16ae33748cj/1200x260.gif') center no-repeat;
+        &__item {
+            width: 145px;
+            height: 190px;
+            background-color: rgb(248, 79, 68);
+            border-radius: 30px;
+            padding-bottom: 30px;
+            &__image {
+                display: flex;
+                background-color: #fff;
+                height: 145px;
+                padding: 20px;
+                overflow: hidden;
+                border-radius: 30px;
+                justify-content: center;
+                align-items: center;
+                padding: 5px;
+                img {
+                    width: 130px;
+                    height: 130px;
+                    border-radius: 15px;
+                }
+            }
+            &__text {
+                color: #fff;
+                font-size: 20px;
+                line-height: 38px;
+                text-align: center;
+            }
+        }
+        &__bestsellers {
+            position: absolute;
+            bottom: 16px;
+            left: 145px;
+        }
+        &__categorie {
+            position: absolute;
+            bottom: 16px;
+            right: 145px;
+        }
+        &__products {
+            position: absolute;
+            top: 23px;
+            left: 28%;
+            &__slicker {
+                width: 527px;
+                background-color: white;
+                padding: 6px;
+                border-radius: 25px;
+                &-item {
+                    div {
+                        width: 124px;
+                        height: 124px;
+                        display: inline-block;
+                        overflow: hidden;
+                        border-radius: 15px;
+                        position: relative;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            &__text__slicker {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                width: 300px;
+                height: 40px;
+                text-align: center;
+                font-size: 24px;
+                font-weight: 700;
+                color: #fff;
+                margin-top: 15px;
+            }
+        }
+    }
+    &__discounts {
+        display: flex;
+        position: absolute;
+        top: 268px;
+        left: 50%;
+        transform: translateX(-50%);
+        &-item {
+            background-color: rgb(255, 117, 108);
+            height: 183px;
+            width: 140px;
+            border-radius: 8px;
+            margin: 10px 5px 0;
+            padding: 5px;
+            &__image {
+                position: relative;
+                width: 124px;
+                height: 124px;
+                margin: 0 auto;
+                overflow: hidden;
+                border-radius: 8px;
+                display: flex;
+                justify-content: center;
+                &__discount {
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    top: 100px;
+                    height: 24px;
+                    width: 92px;
+                    border-radius: 16px;
+                    background-color: #ff472e;
+                    color: #fff;
+                    font-size: 14px;
+                    font-weight: 800;
+                    text-align: center;
+                }
+            }
+            &__text {
+                font-size: 15px;
+                text-align: center;
+                color: white;
+                margin-top: 12px;
+            }
+        }
+    }
+}
+
+// https://ae01.alicdn.com/kf/H82d7e7edc12547f3a660da16ae33748cj/1200x260.gif
