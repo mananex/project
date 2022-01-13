@@ -9,7 +9,7 @@ $(document).ready(function(){
     });
     $('.suggestions__discounts__slicker').slick({
         slidesToShow: 4,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         infinite: false,
         variableWidth: true,
         prevArrow: '<button type="button" class="slick-prev"><img src="../icons/suggestions/left-arrow.svg"></button>',
@@ -45,4 +45,11 @@ $(document).ready(function(){
         prevArrow: false,
         nextArrow: false
     });
+    if ($(window).width() < 576) {
+        $('.suggestions__discounts__slicker').slick({
+            slidesToShow: 2,
+            prevArrow: false,
+            nextArrow: false
+        });
+    }
 });

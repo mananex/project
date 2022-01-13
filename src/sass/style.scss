@@ -9,7 +9,10 @@
 
 .firstscreen {
     position: relative;
-    width: 1140px;
+    width: 1300px;
+    height: 550px;
     left: 50%;
     transform: translateX(-50%);
 }
+
+@import "base/_media.scss";
